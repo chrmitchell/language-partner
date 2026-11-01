@@ -29,7 +29,7 @@ Open a chat in the project (voice mode works best). The first time, Claude asks 
 
 ## Updates
 
-If you added the marketplace, new versions arrive from this repository. **Sync automatically** is meant to pick them up on its own, but it can lag. To update right away: **Customize > Plugins > Add > Manage marketplaces**, then the **⋯** next to language-partner, then **Check for updates**. A new version only reaches you when the plugin's `version` changes.
+The tutor instructions come from the Flashr server, so improvements to them reach you automatically. The plugin itself rarely changes. When it does, **Sync automatically** is meant to pick changes up on its own, but it often doesn't. To update right away: **Customize > Plugins > Add > Manage marketplaces**, then the **⋯** next to language-partner, then **Check for updates**. A new version only reaches you when the plugin's `version` changes.
 
 ## Data
 
@@ -37,6 +37,6 @@ The plugin itself is instructions plus the Flashr connector address. When Flashr
 
 ## For maintainers
 
-- Plugin: `plugins/language-partner/`. Skill: `plugins/language-partner/skills/language-partner/SKILL.md`, with longer material in its `references/` folder.
+- Plugin: `plugins/language-partner/`. The skill is a short pointer: the tutor guide itself is served by the Flashr connector (`get_tutor_guide`), and its source lives in the Flashr app repo under `server/guide/`. Changing the guide needs only a Flashr deploy, not a plugin release.
 - Raise `version` in `plugins/language-partner/.claude-plugin/plugin.json` on every release, or users won't receive the change.
 - Check with `claude plugin validate .` and `claude plugin validate ./plugins/language-partner`.
