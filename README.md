@@ -1,6 +1,6 @@
 # Language Partner
 
-A claude.ai plugin that turns Claude into a voice-first conversation partner for the language you're learning. It keeps turns short and easy to follow by ear, corrects you gently, tells you honestly how you're doing, and picks topics from your own goals. With the Flashr connector it also remembers you between chats (a learner profile per language) and saves each lesson's new words as Flashr flashcards.
+A claude.ai plugin that turns Claude into a voice-first conversation partner for the language you're learning. It keeps turns short and easy to follow by ear, corrects you gently, tells you honestly how you're doing, and picks topics from your own goals. With the Flashr connector it also remembers you between chats (a learner profile and a record of each practice session) and saves each session's new words as Flashr flashcards.
 
 ## Install
 
@@ -25,7 +25,7 @@ Create one claude.ai Project per language, with short project instructions, for 
 
 Keep the second sentence: without it, Claude may not load the skill on its own.
 
-Open a chat in the project (voice mode works best). The first time, Claude asks you a few questions about your goals and level and saves them. After that, just talk. Say when you're done or ask for a summary, and Claude saves the new words as flashcards and notes the session in your profile. To change how practice works ("correct me more", "less English"), just say so; it's saved to your profile.
+Open a chat in the project (voice mode works best). The first time, Claude asks you a few questions about your goals and level and saves them. After that, just talk. Say when you're done or ask for a summary, and Claude saves a record of the session (you can read it in the Flashr app), saves the new words as flashcards, and updates your profile. To change how practice works ("correct me more", "less English"), just say so; it's saved to your profile.
 
 ## Updates
 
@@ -33,7 +33,7 @@ If you added the marketplace, new versions arrive from this repository. Open the
 
 ## Data
 
-The plugin itself is instructions plus the Flashr connector address. When Flashr is connected, Claude sends your learner profile text, lesson vocabulary and review queries to the Flashr server at `numeros-sage.vercel.app`, signed in as you.
+The plugin itself is instructions plus the Flashr connector address. When Flashr is connected, Claude sends your learner profile, session notes, new vocabulary and review queries to the Flashr server at `numeros-sage.vercel.app`, signed in as you.
 
 ## For maintainers
 

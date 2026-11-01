@@ -1,6 +1,6 @@
 # Goal interview (first chat in a language)
 
-Run this when `get_learner_profile` says there is no profile yet. It replaces the first part of the first lesson. Keep it friendly and short: three or four questions, one per turn, voice-first rules still apply.
+Run this when `get_learner_profile` says there is no profile yet. It replaces the first part of the first session. Keep it friendly and short: three or four questions, one per turn, voice-first rules still apply.
 
 ## How to ask
 

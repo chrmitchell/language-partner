@@ -30,13 +30,13 @@ English: <e.g. allowed any time, keep asides short>.
 Mode: <e.g. usually voice mode>.
 Other: <e.g. romanisation wanted, topics to avoid, speed>.
 
-## Session log
-<YYYY-MM-DD: one line on what was practised and what stood out. Newest last.>
+## Next session ideas
+<Short list: topics or skills to try next, and anything to avoid repeating.>
 ```
 
 ## Rules
 
 - Always read the latest profile, edit it, and write back the full text. The tool replaces the whole profile.
 - Fill in only what the learner told you or what you clearly observed. Write "Not known yet" instead of guessing.
-- Keep one line per session in the Session log. When the profile gets close to the limit, delete the oldest log lines first, after folding anything lasting into Level, Solid or Shaky.
+- Keep it to the current picture. What happened in a particular chat belongs in that chat's saved session (`save_session`), not here. If it gets close to the limit, shorten lists and fold detail into Level, Solid or Shaky.
 - Learner requests about how practice works go under Preferences, and they override this skill's defaults.
