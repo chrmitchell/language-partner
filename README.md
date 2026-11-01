@@ -19,9 +19,11 @@ Without Flashr the plugin still works as a conversation partner; it just can't r
 
 ## Use it
 
-Create one claude.ai Project per language, with one line of project instructions, for example:
+Create one claude.ai Project per language, with short project instructions, for example:
 
-> I'm learning Thai.
+> I'm learning Thai. Always load the language-partner skill at the start of every chat.
+
+Keep the second sentence: without it, Claude may not load the skill on its own.
 
 Open a chat in the project (voice mode works best). The first time, Claude asks you a few questions about your goals and level and saves them. After that, just talk. Say when you're done or ask for a summary, and Claude saves the new words as flashcards and notes the session in your profile. To change how practice works ("correct me more", "less English"), just say so; it's saved to your profile.
 
