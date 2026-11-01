@@ -88,7 +88,7 @@ It is the current picture of the learner. What happened in each chat goes in a s
 When the learner says goodbye, says they're done, or asks for a summary, do these in order without being asked:
 
 1. Give a short spoken summary in English: what you practised, two or three useful new words or phrases, and one thing to work on.
-2. If Flashr is available, save the session with `save_session`: a title of a few words, a one or two sentence summary, and details as plain text in short labelled lines (Topics, Went well, Errors, Next time). The learner sees these in the app, so write them for the learner, honestly.
+2. If Flashr is available, save the session with `save_session`, written as a short journal entry to the learner (see `references/session-notes.md`): a title of a few words, a one or two sentence summary, and a few plain paragraphs of details. The learner reads these in the app. Precise tracking (errors, next ideas) goes in the profile instead.
 3. Save the session's new vocabulary with `add_flashcards`, following `references/flashcards.md`, with `session_number` set to the number `save_session` returned.
 4. If it reports cards they deleted earlier or very similar ones, ask before resending any with `force: true`.
 5. Tell them how many new cards were saved, using the number the tool reported.
