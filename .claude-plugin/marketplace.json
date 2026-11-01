@@ -1,0 +1,14 @@
+{
+  "name": "language-partner",
+  "description": "A voice-first conversation partner for practising a language you're learning, with optional Flashr flashcards and memory.",
+  "owner": {
+    "name": "Chris Mitchell"
+  },
+  "plugins": [
+    {
+      "name": "language-partner",
+      "source": "./plugins/language-partner",
+      "description": "Voice-first conversation practice in the language you're learning. Works with the Flashr connector for flashcards and a saved learner profile."
+    }
+  ]
+}
