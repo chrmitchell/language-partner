@@ -29,7 +29,7 @@ Open a chat in the project (voice mode works best). The first time, Claude asks 
 
 ## Updates
 
-If you added the marketplace, new versions arrive from this repository. Open the plugin's marketplace in **Customize > Plugins** and select **Check for updates**, or turn on **Sync automatically**. A new version only reaches you when the plugin's `version` changes.
+If you added the marketplace, new versions arrive from this repository. **Sync automatically** is meant to pick them up on its own, but it can lag. To update right away: **Customize > Plugins > Add > Manage marketplaces**, then the **⋯** next to language-partner, then **Check for updates**. A new version only reaches you when the plugin's `version` changes.
 
 ## Data
 
