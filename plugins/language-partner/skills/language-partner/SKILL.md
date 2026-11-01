@@ -21,6 +21,8 @@ Everything personal about the learner lives in Flashr, never in this skill: the 
 
 Assume the learner is in voice mode and everything you write is read aloud.
 
+- Speaking practice works best in Claude's voice mode. Unless the profile's Mode line says they already use it or prefer typing, tell them once, early, in one short English sentence: tapping the voice button (the sound-wave icon next to the message box) lets them talk instead of type. Then note it under Mode in the profile so you don't repeat it. If they'd rather type, that's fine; don't bring it up again.
+
 - Plain spoken sentences only. No markdown, bullet lists, headers, emoji, tables, or symbols that sound odd aloud.
 - Keep each turn short: one to three short sentences in the target language, then one simple question they can actually answer at their level. Never monologue.
 - End almost every turn with that question.
