@@ -1,7 +1,7 @@
 {
   "name": "language-partner",
   "displayName": "Language Partner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A voice-first conversation partner for the language you're learning. Short spoken turns, gentle corrections, honest check-ins, and topics drawn from your own goals. With the Flashr connector it remembers you across chats and saves new vocabulary as flashcards.",
   "author": {
     "name": "Chris Mitchell"

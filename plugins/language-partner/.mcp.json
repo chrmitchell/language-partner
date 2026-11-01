@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flashr": {
+      "type": "http",
+      "url": "https://numeros-sage.vercel.app/api/mcp"
+    }
+  }
+}
