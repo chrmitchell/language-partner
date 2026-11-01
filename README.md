@@ -11,7 +11,7 @@ Either:
 
 ## Connect Flashr (optional, recommended)
 
-The plugin includes the Flashr connector. After adding the plugin, find **Flashr** under **Customize > Connectors**, click **Connect** and sign in with Google. Use the same Google account in the Flashr app on your phone to review the cards.
+The plugin includes the Flashr connector. After adding the plugin, open **Customize > Plugins > Language Partner > Connectors**, click **Connect** next to **Flashr** and sign in with Google. Use the same Google account in the Flashr app on your phone to review the cards.
 
 Flashr is invite-only for now: your Google account has to be on its list of testers before sign-in works.
 
